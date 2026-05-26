@@ -17,11 +17,7 @@
   --status-hold: #f59e0b;
   --status-done: #10b981;
   --status-stop: #ef4444;
-  --kategorie-irritation: #e11d48;
-  --kategorie-verstaerkung: #2563eb;
-  --kategorie-zuspitzung: #7c3aed;
-  --kategorie-support: #059669;
-  --kategorie-physisch: #ea580c;
+  --kategorie-support: #9693a0;
 }
 
 body { margin: 0; background: #fff; font-family: 'Inter', sans-serif; }
@@ -46,9 +42,9 @@ header {
   width: 100%;
   height: 60vh;
   z-index: 0;
-  background: linear-gradient(-45deg, #d6a9cd, #d0b4f0, #e8f9d8, #b2d5e6);
+  background: linear-gradient(-75deg, #52886f, #c9e0d1, #8ab7ed);
   background-size: 400% 400%;
-  animation: gradientShift 40s ease infinite;
+  animation: gradientShift 90s ease infinite;
   mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
@@ -143,13 +139,19 @@ h1 {
 .card-content { padding: 16px 0; }
 
 .kategorie {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding: 4px 10px;
+  background: var(--kategorie-support);
+  color: #fff;
+  border-radius: 999px;
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 8px;
-  display: block;
 }
 
+/* keep legacy data-kategorie rules (no-op if vars not defined) */
 .kategorie[data-kategorie="Irritation"] { color: var(--kategorie-irritation); }
 .kategorie[data-kategorie="Verstärkung"] { color: var(--kategorie-verstaerkung); }
 .kategorie[data-kategorie="Zuspitzung"] { color: var(--kategorie-zuspitzung); }
@@ -172,10 +174,10 @@ h1 {
   border-radius: 50%;
 }
 
-.status[data-status="wird umgesetzt"]::before { background: var(--status-progress); }
+.status[data-status="in umsetzung"]::before { background: var(--status-progress); }
 .status[data-status="pausiert"]::before { background: var(--status-hold); }
-.status[data-status="umgesetzt"]::before { background: var(--status-done); }
-.status[data-status="nicht umsetzbar"]::before { background: var(--status-stop); }
+.status[data-status="abgeschlossen"]::before { background: var(--status-done); }
+.status[data-status="wird nicht umgesetzt"]::before { background: var(--status-stop); }
 
 /* OVERLAY */
 .overlay {
@@ -221,8 +223,8 @@ h1 {
 <body>
 <div class="bg-gradient"></div>
 <header>
-  <h1>Räume für Jeden – inklusiv, immersiv, interaktiv</h1>
-  <p>Experimentelle Interventionen zur Gestaltung von Wahrnehmung und Raum.</p>
+  <h1>Räume für Jeden <br>– inklusiv, immersiv, interaktiv</h1>
+  <p>Interventionen mit dem CJD am Standort Sickinger Straße, Berlin - SS2026 - BHT - Transformation Design & Print</p>
 </header>
 
 <div class="filters">
@@ -241,10 +243,10 @@ h1 {
     <div class="filter-group">
       <strong>02 / Status</strong>
       <div class="filter-options">
-        <button class="filter-btn" onclick="toggleFilter('status','wird umgesetzt', this)">wird umgesetzt</button>
+        <button class="filter-btn" onclick="toggleFilter('status','in umsetzung', this)">in umsetzung</button>
         <button class="filter-btn" onclick="toggleFilter('status','pausiert', this)">pausiert</button>
-        <button class="filter-btn" onclick="toggleFilter('status','umgesetzt', this)">umgesetzt</button>
-        <button class="filter-btn" onclick="toggleFilter('status','nicht umsetzbar', this)">nicht umsetzbar</button>
+        <button class="filter-btn" onclick="toggleFilter('status','abgeschlossen', this)">abgeschlossen</button>
+        <button class="filter-btn" onclick="toggleFilter('status','wird nicht umgesetzt', this)">wird nicht umgesetzt</button>
       </div>
     </div>
   </div>
@@ -268,17 +270,54 @@ h1 {
 <script>
 const activeFilters = { kategorie: [], status: [] };
 
-const data = Array.from({length: 12}, (_, i) => {
-  const kats = ["Irritation","Verstärkung","Zuspitzung","Support","Physische Erfahrung"];
-  const stats = ["wird umgesetzt","pausiert","umgesetzt","nicht umsetzbar"];
-  return {
-    title: "Intervention #" + (i+1),
-    kategorie: kats[i % kats.length],
-    status: stats[i % stats.length],
-    text: "Dies ist eine detaillierte Beschreibung. Wir erforschen hier, wie räumliche Interventionen die Wahrnehmung verändern können.",
-    img: `https://picsum.photos/seed/${i+123}/800/600`
-  };
-});
+// Use an array of objects so each intervention explicitly contains
+// its `title`, `kategorie`, `status`, `text` and `img` (or `images`).
+const interventions = [
+  {
+    title: "Bushaltestelle",
+    kategorie: ["Verstärkung", "Support", "Irritation"],
+    status: "in umsetzung",
+    text: "Eine interaktive Installation an der Raucherecke. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    img: "https://picsum.photos/seed/bushaltestelle/800/600"
+  },
+  {
+    title: "Dannenmann",
+    kategorie: ["Zuspitzung", "Physische Erfahrung"],
+    status: "in umsetzung",
+    text: "Kritische Auseinandersetzung mit der Vergangenheit des CJD Gründers Arnold Dannenmann.",
+    img: "https://picsum.photos/seed/dannenmann/800/600"
+  },
+  {
+    title: "Rollentausch",
+    kategorie: ["Support", "Verstärkung"],
+    status: "in umsetzung",
+    text: "Rollentausch im Workshop: Teilnehmer*innen und Ausbilder*innen tauschen für einen Tag die Rollen, um Perspektivwechsel zu fördern und gegenseitiges Verständnis zu stärken.",
+    img: "https://picsum.photos/seed/rollentausch/800/600"
+  },
+  {
+    title: "Pop-Up-Pause",
+    kategorie: ["Support"],
+    status: "in umsetzung",
+    text: "Ein Pausenraum auf Zeit, ein Prototyp vor Ort anhand dessen Erkenntnisse über reale Nutzung, Wünsche und Bedürfnisse gewonnen werden.",
+    img: "https://picsum.photos/seed/popup/800/600"
+  }
+,
+{
+    title: "Nur für Gäste des Hauses",
+    kategorie: ["Zuspitzung"],
+    status: "pausiert",
+    text: "Ein Pausenraum auf Zeit, ein Prototyp vor Ort anhand dessen Erkenntnisse über reale Nutzung, Wünsche und Bedürfnisse gewonnen werden.",
+    img: "https://picsum.photos/seed/popup/800/600"
+  },
+  {
+    title: "Parkplatz Invasion",
+    kategorie: ["Irritation"],
+    status: "pausiert",
+    text: "Ein Pausenraum auf Zeit, ein Prototyp vor Ort anhand dessen Erkenntnisse über reale Nutzung, Wünsche und Bedürfnisse gewonnen werden.",
+    img: "https://picsum.photos/seed/popup/800/600"
+  }
+  // Add more objects here as needed; each object defines its own fields.
+];
 
 function toggleFilter(type, value, el) {
   const arr = activeFilters[type];
@@ -295,22 +334,29 @@ function render() {
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
 
-  const filtered = data.filter(item => 
-    (activeFilters.kategorie.length === 0 || activeFilters.kategorie.includes(item.kategorie)) &&
-    (activeFilters.status.length === 0 || activeFilters.status.includes(item.status))
-  );
+  const filtered = interventions.filter(item => {
+    const catMatch = activeFilters.kategorie.length === 0 || (
+      Array.isArray(item.kategorie) ? item.kategorie.some(c => activeFilters.kategorie.includes(c)) : activeFilters.kategorie.includes(item.kategorie)
+    );
+    const statusMatch = activeFilters.status.length === 0 || (
+      Array.isArray(item.status) ? item.status.some(s => activeFilters.status.includes(s)) : activeFilters.status.includes(item.status)
+    );
+    return catMatch && statusMatch;
+  });
 
   filtered.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
     card.onclick = () => openDetail(item);
     
+    const categoriesHtml = (Array.isArray(item.kategorie) ? item.kategorie : [item.kategorie]).map(c => `<span class="kategorie">${c}</span>`).join(' ');
+
     card.innerHTML = `
       <img src="${item.img}" alt="${item.title}">
       <div class="card-content">
-        <span class="kategorie" data-kategorie="${item.kategorie}">${item.kategorie}</span>
+        ${categoriesHtml}
         <h3 style="margin: 5px 0;">${item.title}</h3>
-        <span class="status" data-status="${item.status}">${item.status}</span>
+        <span class="status" data-status="${Array.isArray(item.status)?item.status.join(', '):item.status}">${Array.isArray(item.status)?item.status.join(', '):item.status}</span>
       </div>
     `;
     grid.appendChild(card);
@@ -330,12 +376,14 @@ function openDetail(item) {
   document.getElementById("detail-img").src = item.img;
   
   const cat = document.getElementById("detail-kategorie");
-  cat.innerText = item.kategorie;
-  cat.setAttribute("data-kategorie", item.kategorie);
+  const catHtml = (Array.isArray(item.kategorie) ? item.kategorie : [item.kategorie]).map(c => `<span class="kategorie">${c}</span>`).join(' ');
+  cat.innerHTML = catHtml;
+  cat.removeAttribute('data-kategorie');
 
   const stat = document.getElementById("detail-status");
-  stat.innerText = item.status;
-  stat.setAttribute("data-status", item.status);
+  const statText = Array.isArray(item.status) ? item.status.join(', ') : item.status;
+  stat.innerText = statText;
+  stat.setAttribute("data-status", Array.isArray(item.status) ? item.status[0] : item.status);
 
   document.getElementById("overlay").classList.add("active");
   document.body.style.overflow = "hidden";
