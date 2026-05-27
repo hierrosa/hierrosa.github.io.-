@@ -4,7 +4,7 @@ export const interventions = [
     title: "Pop-Up-Pause",
     kategorie: ["Support"],
     status: "in umsetzung",
-    text: "Ein Pausenraum auf Zeit...",
+    text: "Im Vorfeld erahnt, in den Interviews bestätigt: Den Schüler:innen des CJD’s fehlt es an einem gemütlichen Aufenthaltsraum. Inwieweit dieser Anklang und Akzeptanz gewinnen kann, wollen wir mit einem zeitweise eingerichteten Ruheraums testen. Durch unsere Gespräche und Beobachtungen wurde deutlich, dass die Schüler:innen keinen geeigneten Aufenthalts- bzw. Ruheraum haben. Sie ziehen sich in die Umkleiden zurück oder verbringen ihre Zeit in den Pausen draußen. Insbesondere im Winter oder bei schlechtem Wetter, wird ein geeigneter Raum im Inneren der Gebäude gewünscht. Um die Akzeptanz und das Nutzungsverhalten der Schüler:innen gegenüber eines solchen Ruheraumes besser analysieren zu können, planen wir einen Pop-Up-Ruheraum.",
     img: "images/pause_01.jpg"
   },
 
