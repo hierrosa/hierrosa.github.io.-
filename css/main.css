@@ -1,0 +1,279 @@
+:root {
+  --text: #111;
+  --muted: #6b6b6b;
+  --border: #ececec;
+  --bg-soft: #f7f7f7;
+
+  --status-progress: #6a94ff;
+  --status-hold: #f8cb00;
+  --status-done: #afef73;
+  --status-stop: #FF5A2F;
+
+  --kategorie-support: #b1bfe0;
+
+  --hero-blue: #cad9ff;
+  --hero-green: #afef73;
+  --hero-orange: #FF5A2F;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  padding: 80px 24px 40px;
+  padding: 80px 0 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.detail-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.detail-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+#detail-text {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+#detail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  
+}
+
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-bg svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.card h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 25px;
+  font-weight: 1200;
+  margin: 10px 0 6px;
+  line-height: 1.2;
+  color: #111;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #444;
+  max-width: 1200px;
+  margin-top: 12px;
+}
+
+.hero-text {
+  max-width: 1200px;
+}
+
+.filters {
+  padding: 20px 0;
+  margin-top: 30px;
+  border-top: 1px solid #111;
+  position: relative;
+  z-index: 2;
+}
+
+.page {
+
+  position: relative;
+
+}
+
+.content {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.filter-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.filter-group {
+  padding-bottom: 15px;
+}
+
+.filter-group+.filter-group {
+  border-left: 4px solid #111;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.filter-group strong {
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.filter-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #b5b5b5;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 4px 14px 4px 0;
+}
+
+.filter-btn:hover {
+  color: #111;
+}
+
+.filter-btn.active {
+  color: #111;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 60px;
+  padding: 60px 0px;
+  border-top: 1px solid #111;
+}
+
+.card {
+  cursor: pointer;
+  transition: 0.45s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.12);
+}
+
+.card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.6s ease;
+  border-radius: 12px;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+}
+
+.card-content {
+  padding: 16px 0;
+}
+
+.kategorie {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  padding: 4px 10px;
+  background: var(--kategorie-support);
+  color: #fff;
+  border-radius: 999px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.status::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status[data-status="in umsetzung"]::before {
+  background: var(--status-progress);
+}
+
+.status[data-status="pausiert"]::before {
+  background: var(--status-hold);
+}
+
+.status[data-status="abgeschlossen"]::before {
+  background: var(--status-done);
+}
+
+.status[data-status="wird nicht umgesetzt"]::before {
+  background: var(--status-stop);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.98);
+  display: none;
+  z-index: 1000;
+
+  overflow-y: auto;
+  padding: 80px 24px;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.overlay-inner {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+
+.close {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  font-size: 30px;
+  cursor: pointer;
+}
