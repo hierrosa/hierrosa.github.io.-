@@ -21,7 +21,7 @@ export const interventions = [
     title: "Rollentausch",
     kategorie: ["Support", "Verstärkung"],
     status: "in umsetzung",
-    text: "Rollentausch im Workshop...",
+    text: "Der Rollentausch macht Schüler:innen zu Expert:innen ihres digitalen Alltags mit KI. Lehrende und Verwaltung hören zu, lernen mit und erleben den Raum aus einer ungewohnten Rolle. Durch unsere Gespräche und Beobachtungen wurde deutlich, dass Schüler:innen motiviert sind, Eigeninitiative zu zeigen und Verantwortung zu übernehmen. Genau hier setzt die Intervention an: Sie macht sichtbar, was ihnen zugetraut werden kann. Der Rollentausch erzeugt einen Perspektivwechsel und kehrt die gewohnte Wissensordnung um. Schüler:innen übernehmen die Rolle der Expert:innen und vermitteln Wissen zu einem allgegenwärtigen Thema: Digitalisierung und KI. Lehrende und Verwaltung hören zu, lernen von ihnen und erleben dadurch eine veränderte Dynamik im Raum.",
     img: "images/rollentausch_01.jpg"
   },
 
