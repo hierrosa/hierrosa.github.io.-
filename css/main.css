@@ -62,7 +62,43 @@ header {
   margin-top: 12px;
 }
   
+.detail-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
 
+.detail-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* HERO */
+.detail-images img.hero {
+  grid-column: 1 / -1;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* ZWEI FOKUSBILDER NACH HERO */
+.detail-images img.feature {
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* REST */
+.detail-images img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
 
 
 .hero-bg {
