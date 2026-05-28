@@ -39,16 +39,18 @@ function render() {
     card.className = "card";
     card.onclick = () => openDetail(item);
 
-    const cats = item.kategorie.map(c => `<span class="kategorie">${c}</span>`).join("");
+    const cats = item.kategorie.map(c =>
+      `<span class="kategorie">${c}</span>`
+    ).join("");
 
-card.innerHTML = `
-  <img src="${item.img}">
-  <div class="card-content">
-    ${cats}
-    <h2>${item.title}</h2>
-    <span class="status" data-status="${item.status}">${item.status}</span>
-  </div>
-`;
+    card.innerHTML = `
+      <img src="${item.images ? item.images[0] : item.img}">
+      <div class="card-content">
+        ${cats}
+        <h2>${item.title}</h2>
+        <span class="status" data-status="${item.status}">${item.status}</span>
+      </div>
+    `;
 
     grid.appendChild(card);
   });
@@ -71,12 +73,35 @@ function toggleFilter(type, value) {
 
 function openDetail(item) {
   document.getElementById("detail-title").innerText = item.title;
+
+  // TEXT
   document.getElementById("detail-text").innerHTML = item.text;
-  document.getElementById("detail-img").src = item.img;
 
+  // IMAGES
+  const imageContainer = document.getElementById("detail-images");
+imageContainer.innerHTML = "";
+
+const images = item.images || (item.img ? [item.img] : []);
+
+images.forEach((src, index) => {
+  const img = document.createElement("img");
+  img.src = src;
+
+  if (index === 0) {
+    img.classList.add("hero");
+  }
+
+  if (index === 1 || index === 2) {
+    img.classList.add("feature");
+  }
+
+  imageContainer.appendChild(img);
+});
+
+  // KATEGORIEN
   const catEl = document.getElementById("detail-kategorie");
-
   catEl.innerHTML = "";
+
   item.kategorie.forEach(c => {
     const span = document.createElement("span");
     span.className = "kategorie";
@@ -84,10 +109,12 @@ function openDetail(item) {
     catEl.appendChild(span);
   });
 
+  // STATUS
   const statusEl = document.getElementById("detail-status");
   statusEl.innerText = item.status;
   statusEl.setAttribute("data-status", item.status);
 
+  // OPEN
   document.getElementById("overlay").classList.add("active");
   document.body.style.overflow = "hidden";
 }
