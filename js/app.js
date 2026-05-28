@@ -71,7 +71,7 @@ function toggleFilter(type, value) {
 
 function openDetail(item) {
   document.getElementById("detail-title").innerText = item.title;
-  document.getElementById("detail-text").innerText = item.text;
+  document.getElementById("detail-text").innerHTML = item.text;
   document.getElementById("detail-img").src = item.img;
 
   const catEl = document.getElementById("detail-kategorie");
