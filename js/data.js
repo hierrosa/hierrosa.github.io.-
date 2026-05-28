@@ -44,7 +44,7 @@ Wir schaffen einen Pausenraum und damit die Möglichkeit, sich zwischen der Lehr
 
 
 `,
-    img: "images/pause_01.jpg"
+    images: ["images/pause_01.jpg"]
   },
 
 
@@ -87,7 +87,14 @@ Unterschiedliche Menschen miteinander in Kontakt bringen — Teilnehmende, Mitar
 <strong>Irritation</strong><br>
 Durch die temporäre Sperrung beziehungsweise Verlagerung der Raucherecke untersuchen wir, wie sich Bewegungen, Begegnungen und Treffpunkte verändern und welche Reaktionen dadurch entstehen.
 `,
-    img: "images/bushaltestelle_01.jpg"
+    images: [
+
+      "images/bushaltestelle_01.jpg",
+      "images/bushaltestelle_02.jpg",
+      "images/bushaltestelle_03.jpg",
+
+
+    ]
   },
 
   {
@@ -137,7 +144,10 @@ Frage: Wem wird Wissen und Verantwortung zugetraut?<br>
 
 
 `,
-    img: "images/rollentausch_01.jpg"
+    images: ["images/rollentausch_02.jpg",
+      "images/rollentausch_01.jpg"
+
+    ]
   },
 
 
@@ -155,15 +165,19 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 <br><br>
 `,
-    img: "images/dannenmann_01.jpeg"
+    images: [
+      "images/dannenmann_01.jpeg",
+      "images/dannenmann_02.jpeg",
+      "images/dannenmann_03.jpeg"
+    ]
   },
 
   {
     title: "Nur für Gäste des Hauses",
     kategorie: ["Zuspitzung"],
     status: "pausiert",
-    text: "Ein Pausenraum auf Zeit..Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet..",
-    img: "images/gaeste_01.jpg"
+    text: "Wenn wir die Nutzenden der Räumlichkeiten (Schüler:innen, Lehrende, etc.) mittels einer räumlichen Zuspitzung konfrontieren, bei der eigentlich einladende Möbelstücke mit absurden und exklusiven Verbotsschildern (z.B. ‚Hier dürfen nur XY sitzen‘) versehen werden, dann provozieren wir unmittelbare Frustration, Regelbrüche und eine offene Diskussion über Privilegien und Raumaneignung, weil wir damit die ansonsten oft unsichtbaren Ausschlusslogiken und die strenge Regulierung der Räume physisch erfahrbar und unübersehbar machen.",
+    images: ["images/gaeste_01.jpg"]
   },
 
 
@@ -171,10 +185,50 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
   {
     title: "Barrieren",
-    kategorie: ["Support", "Verstärkung"],
+    kategorie: ["Physische Erfahrung", "Irritation"],
     status: "wird nicht umgesetzt",
-    text: "Barrieren im Workshop....Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet..",
-    img: "images/barriere_01.jpg"
+    text: "Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.B. Vorhänge, Folien oder Paketmauern wie die (Kommunikations-) Wege in der Sickinger Str sind und damit schaffen wir erlebtes Bewusstsein für die unsichtbaren Barrieren am Standort.<br><br> Nicht umsetzbar wegen Brandschutz.",
+    images: ["images/barriere_01.jpg"]
+  },
+
+  {
+    title: "Warme Dusche",
+    kategorie: ["Verstärkung"],
+    status: "pausiert",
+    text: "Wenn wir die Schüler*innen mit positiven Bestärkungen vor bspw. Prüfungen versehen, dann schaffen wir es, mögliche Affirmationen bei den Schüler*innen hervorzurufen, weil wir damit die positiven, bestärkenden und Selbstwert schaffenden Eigenschaften der jeweiligen Person in diesem Momenmt ins Licht rücken.<br> <br> Schüler*innen bekommen von Lehrpersonal vor/beim Betreten des Raumes (wo Prüfung stattfinden wird) ein kleines Kärtchen in die Hand auf dem etwas steht:1) Von Schüler*in in Vergangenheit selbst positives Stichwort zu sich verfasst2) von Lehrpersonal positives verfasst (Schüler*in-spezifisch3) allgemein formulierte Affirmationen.<br> Kombi von 1-2-3 möglich.",
+    images: ["images/dusche_01.jpg"]
+  },
+
+  {
+    title: "Workshops",
+    kategorie: ["Support"],
+    status: "pausiert",
+    text: "Wir erarbeiten mit Mitarbeitenden und Schüler*innen durch partizipative Formate neue Ideen für die Raumnutzung des CDJ und damit fördern wir Kommunikation Gemeinschaftsgefühl sowie Selbstwirksamkeit bei allen Parteien weil wir sie von Beginn an an den Prozessen beteiligen.",
+    images: ["images/workshop_01.jpg"]
+  },
+
+  {
+    title: "Glasbox 2.0",
+    kategorie: ["Support"],
+    status: "wird nicht umgesetzt",
+    text: "Wir erarbeiten mit Mitarbeitenden und Schüler*innen durch partizipative Formate neue Ideen für die Raumnutzung des CDJ und damit fördern wir Kommunikation Gemeinschaftsgefühl sowie Selbstwirksamkeit bei allen Parteien weil wir sie von Beginn an an den Prozessen beteiligen.<br><br> Nicht umsetzbar weil der Raum kleiner ist als gedacht und regelmäßig genutzt wird.",
+    images: ["images/glasbox_01.jpg"]
+  },
+
+    {
+    title: "Klorreicher Rückzug",
+    kategorie: ["Zuspitzung"],
+    status: "pausiert",
+    text: "Wir zeigen Mitarbeitenden und Schüler*innen durch das radikale Verschönern eigentlich unschöner Aufenthaltsorte wie der Toilette oder der Raucherecke auf, welche (Un-)Orte momentan wie genutzt werden und damit schaffen wir erlebtes Bewusstsein für die Orte weil wir sie in ihrer Momentanen Funktion verstärken und damit diskutierbar machen",
+    images: ["images/klorreich_01.jpg"]
+  },
+
+    {
+    title: "Zielbild 2026",
+    kategorie: ["Physische Erfahrung"],
+    status: "pausiert",
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    images: ["images/zielbild_01.jpg"]
   },
 
 
@@ -182,7 +236,27 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     title: "Parkplatz Invasion",
     kategorie: ["Irritation"],
     status: "pausiert",
-    text: "Ein experimenteller Eingriff...",
-    img: "images/parkplatz_01.jpg"
-  }
+    text: "<strong>Wenn wir als Performance in einem Auto aus Pappe zum CJD fahren </strong>und uns dort auf dem Parkplatz positionieren und dort Anwesende in unseren neuen ‘Raum’ einladen,. nehmen wir Platz auf dem Parkplatz ein, der dort auf dem Hof den Autos vorbehalten wird und machen sichtbar, wie wenig Paltz für Menschen dort ist.<br><br>  <strong>Wie wir das übergeben / inszenieren:</strong> Unangekündigt in der Pause auf den Parkplatz ‘fahren’, hupen und dort Raum einnehmen (evtl mit Malerfachverkauf absprechen). Getränke anbieten, vielleicht Musik abspielen, mit den Leuten sprechen.",
+    images: ["images/parkplatz_01.jpg",
+      "images/parkplatz_02.jpg",
+    ]
+  },
+
+  {
+    title: "Räume-Lotto",
+    kategorie: ["Irritation"],
+    status: "wird nicht umgesetzt",
+    text: "Wenn wir Mitarbeitenden und Schüler*innen durch das zufällige Zuweisen von Räumen, in denen gearbeitet/gelehrt/gelernt vor die Herausforderung stellen sich flexibel anzupassen und die Räume mal aus anderer Perspektive betrachten zu müssen, dann  wird die Öffnung und multifunktionale Nutzung der Räume einfach mal ausprobiert weil direkt sichtbar wird, was es dafür braucht und was die Bedürfnisse sind.<br><br> Nicht umsetzbar weil...Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet...Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet..",
+    images: ["images/lotto_01.jpg"]
+  },
+
+  {
+    title: "Nur zum Durchlaufen",
+    kategorie: ["Physische Erfahrung", "Irritation"],
+    status: "pausiert",
+    text: "Wenn wir die Schüler:innen, Lehrenden und Auszubildenden in den Gängen mittels einer auditiven Zuspitzung konfrontieren, die in Dauerschleife die Anweisung ‚Der Flur ist nur zum Durchlaufen‘ abspielt, dann provozieren wir bei den Nutzenden Irritation und einen aktiven Diskurs über die restriktiven Raumfunktionen, weil wir damit die Systemlogik (dass regulierte Räume den Aufenthalt strikt steuern und Gruppen trennen) unüberhörbar und unübersehbar machen.",
+    images: ["images/flur_01.jpg"]
+  },
+
+
 ];
