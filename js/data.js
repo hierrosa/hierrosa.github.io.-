@@ -187,9 +187,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <br><br>
 `,
     images: [
-      "images/dannenmann_01.jpeg",
-      "images/dannenmann_02.jpeg",
-      "images/dannenmann_03.jpeg"
+      "images/jammer_01.jpg",
+   
     ]
   },
   {
@@ -224,7 +223,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     kategorie: ["Irritation", "Physische Erfahrung"],
     status: "wird nicht umgesetzt",
     text: "Installation von IR-Sensoren gekoppelt mit Breitband-Jammern (Störung von Mobilfunk und mobilen Daten)",
-    img: "images/barriere_01.jpg"
+    img: "images/jammer_01.jpg"
   },
   
   {
