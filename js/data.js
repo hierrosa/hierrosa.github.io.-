@@ -172,6 +172,26 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     ]
   },
 
+    {
+    title: "IR-Jammer",
+    kategorie: ["Physische Erfahrung", "Irritation"],
+    status: "wird nicht umgesetzt",
+    text: `
+<strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</strong>
+
+<br><br>
+
+<strong>Hebelpunkt</strong><br>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+<br><br>
+`,
+    images: [
+      "images/dannenmann_01.jpeg",
+      "images/dannenmann_02.jpeg",
+      "images/dannenmann_03.jpeg"
+    ]
+  },
   {
     title: "Nur für Gäste des Hauses",
     kategorie: ["Zuspitzung"],
@@ -198,7 +218,15 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     text: "Wenn wir die Schüler*innen mit positiven Bestärkungen vor bspw. Prüfungen versehen, dann schaffen wir es, mögliche Affirmationen bei den Schüler*innen hervorzurufen, weil wir damit die positiven, bestärkenden und Selbstwert schaffenden Eigenschaften der jeweiligen Person in diesem Momenmt ins Licht rücken.<br> <br> Schüler*innen bekommen von Lehrpersonal vor/beim Betreten des Raumes (wo Prüfung stattfinden wird) ein kleines Kärtchen in die Hand auf dem etwas steht:1) Von Schüler*in in Vergangenheit selbst positives Stichwort zu sich verfasst2) von Lehrpersonal positives verfasst (Schüler*in-spezifisch3) allgemein formulierte Affirmationen.<br> Kombi von 1-2-3 möglich.",
     images: ["images/dusche_01.jpg"]
   },
-
+  
+  {
+    title: "IR-Jammer",
+    kategorie: ["Irritation", "Physische Erfahrung"],
+    status: "wird nicht umgesetzt",
+    text: "Installation von IR-Sensoren gekoppelt mit Breitband-Jammern (Störung von Mobilfunk und mobilen Daten)",
+    img: "images/barriere_01.jpg"
+  },
+  
   {
     title: "Workshops",
     kategorie: ["Support"],
