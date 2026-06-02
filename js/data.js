@@ -193,6 +193,31 @@ Wenn wir die ständige digitale Erreichbarkeit und den damit verbundenen Rückzu
    
     ]
   },
+
+  
+    {
+    title: "Halal-Wochen",
+    kategorie: ["Physische Erfahrung", "Irritation"],
+    status: "wird nicht umgesetzt",
+    text: `
+<strong>Die Beobachtung: Ein Großteil der muslimischen Teilnehmer flüchtet in den Pausen zum nahegelegenen Bäcker oder Discounter, da das Vertrauen in die Halal-Konformität der CJD-Küche fehlt. Die Mensa als sozialer Ort der Gemeinschaft (ein Kernwert des CJD) versagt hier strukturell.Der Hebel: Wir inszenieren die Umstellung der Verpflegung als großangelegte "Halal-Aktionswochen" im McDonald's Stil. Mittels knalliger Plakate, Social Media Teasern und einer PR-Kampagne ("Das CJD wird Halal – Aus Liebe zum Nächsten") wird maximale Aufmerksamkeit erzeugt.
+
+Die Zuspitzung: Die Kampagne nutzt bewusst kommerzielle Codes ("Los Wochos"), um die religiöse Aufladung des Themas zu entmystifizieren und in den Alltag zu holen. Wir triggern damit die "System-Werte": Christliches Menschenbild vs. gelebte Realität der Zielgruppe.
+
+Warum verworfen? Die Intervention wurde aufgrund des hohen Risikos einer "Rechten Empörungs-Welle" (Triggering der christlich-konservativen Bubble: "Islamisierung der Diakonie") als politisch zu instabil für die aktuelle Phase eingestuft.</strong>
+
+<br><br>
+
+<strong>Hebelpunkt</strong><br>
+Wenn wir das bestehende Halal-Angebot der Mensa durch eine laute, kommerziell aufgeladene Aktionswoche im 'Los Wochos'-Stil neu inszenieren, dann irritieren wir die gewohnten Kommunikationsmuster des CJD, weil wir damit aufzeigen, dass rein sachliche Informationen nicht ausreichen, um bestehende Vertrauensbarrieren und gefühlte Distanz abzubauen. Wir nutzen den populärkulturellen Code, um eine neue Form der Transparenz und Wertschätzung für die Ernährungsgewohnheiten der Jugendlichen zu erzwingen.
+
+<br><br>
+`,
+    images: [
+      "images/halal.jpeg",
+   
+    ]
+  },
   {
     title: "Nur für Gäste des Hauses",
     kategorie: ["Zuspitzung"],
