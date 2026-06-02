@@ -227,7 +227,25 @@ Wenn wir das bestehende Halal-Angebot der Mensa durch eine laute, kommerziell au
   },
 
 
+ {
+    title: "Elite-Mockumentary",
+    kategorie: ["Physische Erfahrung", "Irritation"],
+    status: "pausiert",
+    text: `
+<strong>Wir behaupten die höchste Form der individuellen Förderung und filmen sie dort, wo das System endet: Am Mittelstreifen der A100. Eine Mockumentary über den Luxus des Nichts-Habens.</strong>
 
+<br><br>
+
+<strong>Hebelpunkt</strong><br>
+Wenn wir die etablierten Schutz- und Förderstrukturen mittels einer medialen Zuspitzung (in der Öffentlichkeit, bzw vlt da sogar konket auf die idee eingehen, bin ich mir noch unsicher)) irritieren, dann provozieren wir eine systeminterne Rechtfertigungsnot und mediale Resonanz, weil wir damit die Logiken von Anpassung und Leistung als Faktoren entlarven, die bestehende Ausschlusslogiken eher stabilisieren als aufbrechen.
+
+<br><br>
+`,
+    images: [
+      "images/elite.jpeg",
+   
+    ]
+  },
 
   {
     title: "Barrieren",
