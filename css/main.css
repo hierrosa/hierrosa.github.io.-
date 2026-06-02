@@ -19,7 +19,7 @@
 body {
   margin: 0;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 header {
@@ -117,14 +117,14 @@ header {
 }
 
 h1 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 70px;
   font-weight: 600;
   margin-bottom: 16px;
 }
 
 .card h2 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 25px;
   font-weight: 1200;
   margin: 10px 0 6px;
