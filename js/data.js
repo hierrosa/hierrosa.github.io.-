@@ -177,12 +177,14 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     kategorie: ["Physische Erfahrung", "Irritation"],
     status: "wird nicht umgesetzt",
     text: `
-<strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</strong>
+<strong>Intervention: Installation von IR-Sensoren gekoppelt mit Breitband-Jammern.
+Ziel: Deaktivierung des digitalen Fluchtpunkts "Handy". Erzwungene soziale Interaktion oder Rückzug.
+Illegal nach StGB § 317</strong>
 
 <br><br>
 
 <strong>Hebelpunkt</strong><br>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Wenn wir die ständige digitale Erreichbarkeit und den damit verbundenen Rückzug ins Private durch eine temporäre technische Störung (Jammer) unterbrechen, dann lenken wir die Aufmerksamkeit radikal zurück auf die physische Aufenthaltsqualität vor Ort, weil wir damit sichtbar machen, dass das Smartphone oft als Kompensationsstrategie für fehlende attraktive Begegnungsräume genutzt wird. Die Intervention zwingt das System dazu, die Qualität der analogen Räume und deren soziale Funktion neu zu bewerten.
 
 <br><br>
 `,
@@ -217,14 +219,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
     text: "Wenn wir die Schüler*innen mit positiven Bestärkungen vor bspw. Prüfungen versehen, dann schaffen wir es, mögliche Affirmationen bei den Schüler*innen hervorzurufen, weil wir damit die positiven, bestärkenden und Selbstwert schaffenden Eigenschaften der jeweiligen Person in diesem Momenmt ins Licht rücken.<br> <br> Schüler*innen bekommen von Lehrpersonal vor/beim Betreten des Raumes (wo Prüfung stattfinden wird) ein kleines Kärtchen in die Hand auf dem etwas steht:1) Von Schüler*in in Vergangenheit selbst positives Stichwort zu sich verfasst2) von Lehrpersonal positives verfasst (Schüler*in-spezifisch3) allgemein formulierte Affirmationen.<br> Kombi von 1-2-3 möglich.",
     images: ["images/dusche_01.jpg"]
   },
-  
-  {
-    title: "IR-Jammer",
-    kategorie: ["Irritation", "Physische Erfahrung"],
-    status: "wird nicht umgesetzt",
-    text: "Installation von IR-Sensoren gekoppelt mit Breitband-Jammern (Störung von Mobilfunk und mobilen Daten)",
-    img: "images/jammer_01.jpg"
-  },
+
   
   {
     title: "Workshops",
