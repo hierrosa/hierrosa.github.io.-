@@ -156,12 +156,12 @@ Frage: Wem wird Wissen und Verantwortung zugetraut?<br>
     kategorie: ["Zuspitzung", "Physische Erfahrung"],
     status: "in umsetzung",
     text: `
-<strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</strong>
+<strong>Die Intervention setzt sich kritisch mit der Biografie des CJD-Gründers Arnold Dannenmann auseinander und bricht die offizielle, oft idealisierte Gründungslegende der Institution visuell auf. Das Herzstück der Arbeit bildet ein interaktives 3D-Modell seines Kopfes, dessen äußere Schale als glatte, makellose Fassade fungiert. Über einen Magnetmechanismus lässt sich das Modell öffnen und legt das widersprüchliche Innere seiner Geschichte frei. Hier prallen historische Dokumente ungefiltert aufeinander: Seine völkischen Kriegskampfschriften, wie „Jugend bekennt sich zu Christus und Nationalsozialismus“, stehen in direktem Kontrast zu seiner späteren Ehrung mit dem Bundesverdienstkreuz mit Stern. Die Arbeit konfrontiert die Leitungsebene pünktlich zum 80. Jubiläum des CJD mit den historischen Leerstellen der eigenen Identität und macht spürbar, warum die Institution diese Ambivalenzen bis heute lieber verschweigt.</strong>
 
 <br><br>
 
 <strong>Hebelpunkt</strong><br>
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Der Hebel dieser Arbeit liegt in einer bewussten Störung der internen Kommunikation. Das Exponat nutzt das  Aufklappen als Werkzeug, um die einseitige, top-down diktierte Gründungsgeschichte des CJD zu unterbrechen. Indem die Betrachter die Fassade physisch öffnen (ihm in den Kopf schauen), wechseln sie von der Rolle der passiven Zuhörer in die Rolle der aktiven Entdecker. Dieser Hebel macht die historische Ambivalenz überhaupt erst kommunizierbar: Er zwingt das System, das bisherige Schweigen und das Schönreden der Biografie Dannenmanns zu beenden. Anstatt das 80. Jubiläum für die üblichen, glatten PR-Floskeln zu nutzen, hebelt die Intervention die Komfortzone der Institution aus. Sie stößt einen ehrlichen, längst überfälligen Dialog zwischen Jugendlichen, Leitung und Vorstand über historische Wahrheit, Widersprüche und die eigene Identität an.
 
 <br><br>
 `,
