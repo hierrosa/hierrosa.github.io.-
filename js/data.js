@@ -247,6 +247,26 @@ Wenn wir die etablierten Schutz- und Förderstrukturen mittels einer medialen Zu
     ]
   },
 
+    {
+    title: "Vom Werkstück zum Herzstück",
+    kategorie: ["Verstärkung", "Physische Erfahrung"],
+    status: "in umsetzung",
+    text: `
+<strong>Bislang werden Werkstücke hergestellt umd bewertet um dann weggeworfen zu werden. Gleichzeitig hat der einzige Aufenthalt für die Schüler rostige Bänke und offene Stellen die für Müll genutzt werden.</strong>
+
+<br><br>
+
+<strong>Hebelpunkt</strong><br>
+Aus unseren Interviews hat sich ergegebe, dass die Azubis im Metallbereich es schade finden, dass Ihre Werkstücke für den Müll produziert werden. Gleichzeitig erfuhren wird, dass sie sich sehr freuen würden, wenn Ihre Stücke Nutzen und Anerkennung erfahren würden. Hierfür haben wir angeregt die Azubis genau solche Probleme lösen zu lassen. 
+
+<br><br>
+`,
+    images: [
+      "images/bank2.jpeg",
+      "images/bank1.jpeg",
+     
+    ]
+  },
   {
     title: "Barrieren",
     kategorie: ["Physische Erfahrung", "Irritation"],
