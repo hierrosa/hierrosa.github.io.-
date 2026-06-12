@@ -53,31 +53,31 @@ Wir schaffen einen Pausenraum und damit die Möglichkeit, sich zwischen der Lehr
     kategorie: ["Verstärkung", "Support", "Irritation"],
     status: "in umsetzung",
     text: `
-<p>
-Die Raucherecke verwandelt sich in eine Bushaltestelle. Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.
-</p>
+
+<strong>Die Raucherecke verwandelt sich in eine Bushaltestelle. Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.</strong>
+
 
 <br><br>
 
 <p><strong>Beobachtung</strong></p>
 
-<p>
+
 Durch unsere Besuche und Interviews wurde deutlich, dass die Raucherecke der zentrale Treffpunkt des Standorts ist. Auch Nichtraucher:innen halten sich dort auf oder laufen mehrmals täglich daran vorbei. Dadurch bekommt der Ort eine besondere soziale Relevanz. Gleichzeitig bewegt er sich im Spannungsfeld zwischen der Herzlichkeit, die wir im CJD erlebt haben, und der räumlichen „Ungemütlichkeit“ des Standorts.
-</p>
+
 
 <br><br>
 
 <p><strong>Hebel-Hypothese</strong></p>
 
-<p>
+
 Wenn wir den informell angeeigneten Treffpunkt „Raucherecke“ metaphorisch als Haltestelle „Zukunft“ inszenieren, dann wandelt sich die unreflektierte Pausen-Routine in einen aktiven Prozess der Zukunftsreflexion und des Zusammenseins, weil die Haltestelle als Raum fungiert, der Rahmenbedingungen für den Austausch über Ziele und Blockaden schafft.
-</p>
+
 
 <br><br>
 
 <p><strong>Konzept</strong></p>
 
-<p>
+
 Über zwei Tage wird die Raucherecke als „echte“ Haltestelle mit Schildern, Fahrplänen und Ticketautomaten inszeniert. Die Haltestelle heißt „Zukunft“. Die Buslinien sind in ihren Nummern an biblische Bedeutungen angelehnt, um den Bezug zum christlichen Träger herzustellen. Die Fahrtziele sind aus den Interviews mit den Teilnehmenden abgeleitet.
 </p>
 
