@@ -53,25 +53,77 @@ Wir schaffen einen Pausenraum und damit die Möglichkeit, sich zwischen der Lehr
     kategorie: ["Verstärkung", "Support", "Irritation"],
     status: "in umsetzung",
     text: `
-Bushaltestelle
+<p>
 Die Raucherecke verwandelt sich in eine Bushaltestelle. Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.
+</p>
 
-Beobachtung: Durch unsere Besuche und Interviews wurde deutlich, dass die Raucherecke der zentrale Treffpunkt des Standorts ist. Auch Nichtraucher:innen halten sich dort auf oder laufen mehrmals täglich daran vorbei. Dadurch bekommt der Ort eine besondere soziale Relevanz. Gleichzeitig bewegt er sich im Spannungsfeld zwischen der Herzlichkeit, die wir im CJD erlebt haben, und der räumlichen 'Ungemütlichkeit' des Standorts.
+<br><br>
 
-Hebel-Hypothese: Wenn wir den informell angeeigneten Treffpunkt 'Raucherecke' metaphorisch als Haltestelle 'Zukunft' inszenieren, dann wandelt sich die unreflektierte Pausen-Routine in einen aktiven Prozess der Zukunftsreflexion und des Zusammenseins, weil die Haltestelle als Raum fungiert, der Rahmenbedingungen für den Austausch über Ziele und Blockaden schafft.
+<p><strong>Beobachtung</strong></p>
 
-Konzept: Über zwei Tage wird die Raucherecke als 'echte' Haltestelle mit Schildern, Fahrplänen und Ticketautomaten inszeniert. Die Haltestelle heißt 'Zukunft'. Die Buslinien sind in ihren Nummern an biblische Bedeutungen angelehnt, um den Bezug zum christlichen Träger herzustellen. Die Fahrtziele sind aus den Interviews mit den Teilnehmenden abgeleitet. Ein 'Werbeplakat' nimmt ironisch Bezug auf das Nichtvorhandensein eines Ruheraums und die daraus resultierende Nutzung der Toiletten als Rückzugsort. Zudem markieren Teilnehmende auf einer Weltkarte in Form eines Liniennetzes ihre 'Traumorte'. Am ersten Tag werden zudem Stärken als 'Tickets' gesammelt, begleitet von einer interaktiven Umfrage zum Stimmungsbild vor Ort. Am zweiten Tag wird die Haltestelle 'verlegt' bzw. abgesperrt, um gewohnte Bewegungsmuster zu stören und die Reaktion auf den fehlenden Treffpunkt zu beobachten.
+<p>
+Durch unsere Besuche und Interviews wurde deutlich, dass die Raucherecke der zentrale Treffpunkt des Standorts ist. Auch Nichtraucher:innen halten sich dort auf oder laufen mehrmals täglich daran vorbei. Dadurch bekommt der Ort eine besondere soziale Relevanz. Gleichzeitig bewegt er sich im Spannungsfeld zwischen der Herzlichkeit, die wir im CJD erlebt haben, und der räumlichen „Ungemütlichkeit“ des Standorts.
+</p>
 
-Zugrundeliegende Codes:
-Real-Life-Codes: Starre Pausen-Routinen und die informelle Aneignung des Parkplatzes als Aufenthaltsort.
-Visuelle Codes: Industrielle Tristesse, 'Hygienecodes' und das Fehlen von Ruheräumen (Nutzung der Toiletten als Rückzugsort)
+<br><br>
 
-Ziele:
-Positive Verstärkung: Würdigung des informellen Zusammenhalts.
-Support: Plattform für Stimmungen und Wünsche schaffen.
-Irritation: Untersuchung der Reaktion des Systems auf den Verlust eines gewohnten Ankerpunkts.
+<p><strong>Hebel-Hypothese</strong></p>
 
-Reaktionen und Schlüsse: ....
+<p>
+Wenn wir den informell angeeigneten Treffpunkt „Raucherecke“ metaphorisch als Haltestelle „Zukunft“ inszenieren, dann wandelt sich die unreflektierte Pausen-Routine in einen aktiven Prozess der Zukunftsreflexion und des Zusammenseins, weil die Haltestelle als Raum fungiert, der Rahmenbedingungen für den Austausch über Ziele und Blockaden schafft.
+</p>
+
+<br><br>
+
+<p><strong>Konzept</strong></p>
+
+<p>
+Über zwei Tage wird die Raucherecke als „echte“ Haltestelle mit Schildern, Fahrplänen und Ticketautomaten inszeniert. Die Haltestelle heißt „Zukunft“. Die Buslinien sind in ihren Nummern an biblische Bedeutungen angelehnt, um den Bezug zum christlichen Träger herzustellen. Die Fahrtziele sind aus den Interviews mit den Teilnehmenden abgeleitet.
+</p>
+
+<p>
+Ein „Werbeplakat“ nimmt ironisch Bezug auf das Nichtvorhandensein eines Ruheraums und die daraus resultierende Nutzung der Toiletten als Rückzugsort. Zudem markieren Teilnehmende auf einer Weltkarte in Form eines Liniennetzes ihre „Traumorte“.
+</p>
+
+<p>
+Am ersten Tag werden zudem Stärken als „Tickets“ gesammelt, begleitet von einer interaktiven Umfrage zum Stimmungsbild vor Ort. Am zweiten Tag wird die Haltestelle „verlegt“ bzw. abgesperrt, um gewohnte Bewegungsmuster zu stören und die Reaktion auf den fehlenden Treffpunkt zu beobachten.
+</p>
+
+<br><br>
+
+<p><strong>Zugrundeliegende Codes</strong></p>
+
+<p>
+<strong>Real-Life-Codes:</strong> Starre Pausen-Routinen und die informelle Aneignung des Parkplatzes als Aufenthaltsort.
+</p>
+
+<p>
+<strong>Visuelle Codes:</strong> Industrielle Tristesse, „Hygienecodes“ und das Fehlen von Ruheräumen (Nutzung der Toiletten als Rückzugsort).
+</p>
+
+<br><br>
+
+<p><strong>Ziele</strong></p>
+
+<p>
+<strong>Positive Verstärkung:</strong> Würdigung des informellen Zusammenhalts.
+</p>
+
+<p>
+<strong>Support:</strong> Plattform für Stimmungen und Wünsche schaffen.
+</p>
+
+<p>
+<strong>Irritation:</strong> Untersuchung der Reaktion des Systems auf den Verlust eines gewohnten Ankerpunkts.
+</p>
+
+<br><br>
+
+<p><strong>Reaktionen und Schlüsse</strong></p>
+
+<p>
+...
+</p>
 `,
     images: [
 
