@@ -315,4 +315,24 @@ header p {
   right: 40px;
   font-size: 30px;
   cursor: pointer;
+
+  background: #fff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .filter-top {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-group + .filter-group {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
