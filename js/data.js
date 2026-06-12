@@ -53,39 +53,25 @@ Wir schaffen einen Pausenraum und damit die Möglichkeit, sich zwischen der Lehr
     kategorie: ["Verstärkung", "Support", "Irritation"],
     status: "in umsetzung",
     text: `
-<strong>Die Raucherecke verwandelt sich in eine Bushaltestelle.
-Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.</strong>
+Bushaltestelle
+Die Raucherecke verwandelt sich in eine Bushaltestelle. Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.
 
-<br><br>
+Beobachtung: Durch unsere Besuche und Interviews wurde deutlich, dass die Raucherecke der zentrale Treffpunkt des Standorts ist. Auch Nichtraucher:innen halten sich dort auf oder laufen mehrmals täglich daran vorbei. Dadurch bekommt der Ort eine besondere soziale Relevanz. Gleichzeitig bewegt er sich im Spannungsfeld zwischen der Herzlichkeit, die wir im CJD erlebt haben, und der räumlichen 'Ungemütlichkeit' des Standorts.
 
-<strong>Hebelpunkt</strong><br>
-Durch unsere Besuche und Interviews wurde deutlich, dass die Raucherecke der zentrale Treffpunkt des Standorts ist. Auch Nichtraucher:innen halten sich dort auf oder laufen mehrmals täglich daran vorbei. Dadurch bekommt der Ort eine besondere soziale Relevanz. Gleichzeitig bewegt er sich im Spannungsfeld zwischen der Herzlichkeit, die wir im CJD erlebt haben, und der räumlichen Ungemütlichkeit des Standorts.
+Hebel-Hypothese: Wenn wir den informell angeeigneten Treffpunkt 'Raucherecke' metaphorisch als Haltestelle 'Zukunft' inszenieren, dann wandelt sich die unreflektierte Pausen-Routine in einen aktiven Prozess der Zukunftsreflexion und des Zusammenseins, weil die Haltestelle als Raum fungiert, der Rahmenbedingungen für den Austausch über Ziele und Blockaden schafft.
 
-<br><br>
+Konzept: Über zwei Tage wird die Raucherecke als 'echte' Haltestelle mit Schildern, Fahrplänen und Ticketautomaten inszeniert. Die Haltestelle heißt 'Zukunft'. Die Buslinien sind in ihren Nummern an biblische Bedeutungen angelehnt, um den Bezug zum christlichen Träger herzustellen. Die Fahrtziele sind aus den Interviews mit den Teilnehmenden abgeleitet. Ein 'Werbeplakat' nimmt ironisch Bezug auf das Nichtvorhandensein eines Ruheraums und die daraus resultierende Nutzung der Toiletten als Rückzugsort. Zudem markieren Teilnehmende auf einer Weltkarte in Form eines Liniennetzes ihre 'Traumorte'. Am ersten Tag werden zudem Stärken als 'Tickets' gesammelt, begleitet von einer interaktiven Umfrage zum Stimmungsbild vor Ort. Am zweiten Tag wird die Haltestelle 'verlegt' bzw. abgesperrt, um gewohnte Bewegungsmuster zu stören und die Reaktion auf den fehlenden Treffpunkt zu beobachten.
 
-<strong>Grobkonzept</strong><br>
-Über zwei Tage hinweg inszenieren wir die Raucherecke als scheinbar „echte“ Bushaltestelle. Dafür bauen wir typische Elemente wie Beschilderung, Fahrplan oder Sitzmöglichkeiten nach und ergänzen die Intervention durch eine interaktive Umfrage.
+Zugrundeliegende Codes:
+Real-Life-Codes: Starre Pausen-Routinen und die informelle Aneignung des Parkplatzes als Aufenthaltsort.
+Visuelle Codes: Industrielle Tristesse, 'Hygienecodes' und das Fehlen von Ruheräumen (Nutzung der Toiletten als Rückzugsort)
 
-Am ersten Tag wird die Haltestelle eröffnet. Wir begleiten die Situation beobachtend und erklärend vor Ort. Ziele, Wünsche und Zukunftsvorstellungen der Azubis erscheinen dabei als „Fahrtziele“ und werden sichtbar gemacht.
+Ziele:
+Positive Verstärkung: Würdigung des informellen Zusammenhalts.
+Support: Plattform für Stimmungen und Wünsche schaffen.
+Irritation: Untersuchung der Reaktion des Systems auf den Verlust eines gewohnten Ankerpunkts.
 
-<br><br>
-
-Am zweiten Tag ist die Haltestelle plötzlich „verlegt“. Dadurch entsteht Irritation: Der gewohnte Treffpunkt fehlt und wir beobachten, wie Menschen darauf reagieren und welche neuen Orte oder Dynamiken entstehen.<br><br>
-
-
-<strong>Ziele</strong><br>
-
-<strong>Positive Verstärkung</strong><br>
-Den bereits vorhandenen Zusammenhalt am Standort sichtbar machen und stärken. Die Bushaltestelle würdigt die Raucherecke als sozialen Treffpunkt und macht ihre Bedeutung für den Alltag erfahrbar.<br>
-
-
-<strong>Support / Infrastruktur</strong><br>
-Unterschiedliche Menschen miteinander in Kontakt bringen — Teilnehmende, Mitarbeitende und Leitung. Gleichzeitig entsteht ein Ort, an dem Stimmungen, Wünsche und Meinungen gesammelt und sichtbar gemacht werden können.<br>
-
-
-
-<strong>Irritation</strong><br>
-Durch die temporäre Sperrung beziehungsweise Verlagerung der Raucherecke untersuchen wir, wie sich Bewegungen, Begegnungen und Treffpunkte verändern und welche Reaktionen dadurch entstehen.
+Reaktionen und Schlüsse: ....
 `,
     images: [
 
