@@ -4,6 +4,25 @@ const activeFilters = { kategorie: [], status: [] };
 
 const grid = document.getElementById("grid");
 
+const shapes = document.querySelectorAll(".shape");
+
+const speeds = [.6, .8, 0.3, 0.4, 0.7]; 
+
+function updateParallax() {
+  const scrollY = window.scrollY;
+
+  shapes.forEach((shape, i) => {
+    const speed = speeds[i % speeds.length];
+    const y = scrollY * speed;
+
+    shape.style.transform = `translateY(${y}px)`;
+  });
+}
+
+window.addEventListener("scroll", () => {
+  requestAnimationFrame(updateParallax);
+});
+
 function renderFilters() {
   const kategorien = ["Irritation","Verstärkung","Zuspitzung","Support","Physische Erfahrung"];
   const status = ["in umsetzung","pausiert","abgeschlossen","wird nicht umgesetzt"];
