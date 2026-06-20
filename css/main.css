@@ -117,7 +117,7 @@ header {
   top: 0;
   transform: scale(1.6);
   transform-origin: top left;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 h1 {
