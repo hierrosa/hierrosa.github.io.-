@@ -6,26 +6,48 @@ const grid = document.getElementById("grid");
 
 const shapes = document.querySelectorAll(".shape");
 
-const speeds = [.6, .8, 0.3, 0.4, 0.7]; 
+const configs = [
+  { x: .2, y: -0.1 },
+  { x: .1, y: 0.10 },
+  { x: -0.05, y: 0.15 },
+  { x: .1, y: -0.1 },
+  { x: 0.3, y: 0.50 },
+  { x: .02, y: -0.15 },
+  { x: 1.2, y: 0.15 }
+];
 
-function updateParallax() {
-  const scrollY = window.scrollY;
+let targetScroll = 0;
+let currentScroll = 0;
+
+window.addEventListener("scroll", () => {
+  targetScroll = window.scrollY;
+});
+
+function animate() {
+  currentScroll += (targetScroll - currentScroll) * 0.08;
 
   shapes.forEach((shape, i) => {
-    const speed = speeds[i % speeds.length];
-    const y = scrollY * speed;
+    const cfg = configs[i];
 
-    shape.style.transform = `translateY(${y}px)`;
+    const moveX = currentScroll * cfg.x;
+    const moveY = currentScroll * cfg.y;
+
+    shape.style.transform =
+      `translate(${moveX}px, ${moveY}px)`;
   });
+
+  requestAnimationFrame(animate);
 }
+
+animate();
 
 window.addEventListener("scroll", () => {
   requestAnimationFrame(updateParallax);
 });
 
 function renderFilters() {
-  const kategorien = ["Irritation","Verstärkung","Zuspitzung","Support","Physische Erfahrung"];
-  const status = ["in umsetzung","pausiert","abgeschlossen","wird nicht umgesetzt"];
+  const kategorien = ["Irritation", "Verstärkung", "Zuspitzung", "Support", "Physische Erfahrung"];
+  const status = ["in umsetzung", "pausiert", "abgeschlossen", "wird nicht umgesetzt"];
 
   document.getElementById("filter-kategorie").innerHTML =
     kategorien.map(v =>
@@ -86,7 +108,7 @@ function render() {
 function toggleFilter(type, value) {
   const arr = activeFilters[type];
   const i = arr.indexOf(value);
-  i > -1 ? arr.splice(i,1) : arr.push(value);
+  i > -1 ? arr.splice(i, 1) : arr.push(value);
   render();
 }
 
@@ -98,24 +120,24 @@ function openDetail(item) {
 
   // IMAGES
   const imageContainer = document.getElementById("detail-images");
-imageContainer.innerHTML = "";
+  imageContainer.innerHTML = "";
 
-const images = item.images || (item.img ? [item.img] : []);
+  const images = item.images || (item.img ? [item.img] : []);
 
-images.forEach((src, index) => {
-  const img = document.createElement("img");
-  img.src = src;
+  images.forEach((src, index) => {
+    const img = document.createElement("img");
+    img.src = src;
 
-  if (index === 0) {
-    img.classList.add("hero");
-  }
+    if (index === 0) {
+      img.classList.add("hero");
+    }
 
-  if (index === 1 || index === 2) {
-    img.classList.add("feature");
-  }
+    if (index === 1 || index === 2) {
+      img.classList.add("feature");
+    }
 
-  imageContainer.appendChild(img);
-});
+    imageContainer.appendChild(img);
+  });
 
   // KATEGORIEN
   const catEl = document.getElementById("detail-kategorie");
