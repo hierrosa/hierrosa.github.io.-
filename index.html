@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RÄUME FÜR JEDEN</title>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="./css/main.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RÄUME FÜR JEDEN</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-<div class="hero-bg">
-  <svg viewBox="0 0 2000 1200" preserveAspectRatio="none">
-    <path class="shape shape-1 cls-2" d="M963.4,36.83c28.47,2.02,49.78,10.6,71.36,26.75,18.29,13.67,23.85,22.56,20.29,45.99-4.27,28.11-37.12,40.78-55.53,60.44-7.57,8.08-16.54,21.36-19.84,31.52-10.77,33.12,3.61,75.58-37.06,93.74-33.61,15-67.1.11-98.38-8.23-42.08-11.24-91.63-15.65-135.95-16.31-21.26-.32-50.95,3.03-70.24-5.17-10.54-4.48-10.51-19.18-10.15-28.93.76-20.76,12.17-52.13,22.74-71.02,19.22-34.29,65.57-61.72,101.82-78.26,58.1-26.52,147.44-54.99,210.95-50.48h0Z" fill="var(--hero-orange)" />
-  <path class="shape shape-2 cls-1" d="M445.73,387.94c13.19-16.07,42.34-51.22,62.44-57.42,11.93-3.68,34.37,1.04,44.07,7.94,29.91,21.33,39,86.96,48.14,120.79,9.34,34.53,21.28,68.31,30.95,102.71,7.91,28.1,13.71,48.23,9.03,78.01-11.58,73.68-63.32,141.27-148.49,137.64-113.16-4.83-171.16-98.82-156.32-198.43,9.78-65.6,67.41-139.09,110.18-191.26h-.01Z" fill="var(--hero-lightblue)"/>
-  <path class="shape shape-3 cls-2" d="M211.08-50.36c51.54,19.02,86.07,82.96,127.39,118.57,22.4,19.32,52.71,37.44,80,47.51,13.89,5.14,29.07,5.15,42.92,9.98,59.89,20.95,96.98,109.54,50.71,158.15-57.81,60.71-125.57,41.45-195.22,4.09-26.57-14.25-37.03-24.67-57.77-45.38-52.43-52.4-155.49-93.6-222.86-122.09-16.5-6.96-37.18-13.71-52.54-21.28C-50.37,82.41-50.86,34.12-29.75,8.79,13.71-43.42,146.68-74.16,211.1-50.37h-.02Z"fill="var(--hero-orange)"/>
-  <path class="shape shape-4 cls-1" d="M638.86,143.32c-2.2,27.41-7.28,57.74-32.69,70.47-22.31,11.19-47.25,7.86-50.85-22.05-2.34-19.44,2.88-37.3-1.22-57.73-8.36-41.5-31.65-37.7-61.93-47.12-15.27-4.75-45.08-15.23-53.35-30.32-25.01-45.63,12.33-125.1,58.8-139.03,25.32-7.59,74.59-8.28,95.12,8.1,24.92,19.89,36.41,86.75,41.17,120.94,4.37,31.38,7.55,64.28,4.95,96.76h0Z" fill="var(--hero-lightblue)"/>
-  <path class="shape shape-5 cls-3" d="M606.23,341.69c2.12-49.18,40.07-59.57,84.43-52.79,76.34,11.66,147.26,112.6,189.44,172.34,10.41,14.74,28.22,35.81,25.82,53.99-3.98,30.11-45.91,32.57-69.75,38.37-27.19,6.59-32.57,28.91-63.31,29.91-67.34,2.16-103.15-74.28-129.33-125.56-16.39-32.11-38.79-80.95-37.26-116.26h-.03Z"fill="var(--hero-darkblue)"/>
-  <path class="shape shape-6 cls-4" d="M593.81,319.89c-12.87,9.16-25.79,13.34-37.96,7.17-9.97-5.05-18.39-22.26-20.48-32.81-2.09-10.55-.2-20.77,8.54-30.8,14.38-16.5,22.03-7.17,37.35-7.53,7.12-.17,9.65-2.44,16.09-5.33,3.08-1.38,3.92-1.34,6.03.35,6.55,5.24,7.9,19.48,7.28,28.06-.61,8.5-3.04,20.85-7,29.24-2.36,5-4.92,8.13-9.85,11.64h0Z"fill="var(--hero-pink)"/>
+  <div class="hero-bg">
+    <svg viewBox="0 0 2000 1200" preserveAspectRatio="none">
+      <path class="shape shape-1 cls-2"
+        d="M963.4,36.83c28.47,2.02,49.78,10.6,71.36,26.75,18.29,13.67,23.85,22.56,20.29,45.99-4.27,28.11-37.12,40.78-55.53,60.44-7.57,8.08-16.54,21.36-19.84,31.52-10.77,33.12,3.61,75.58-37.06,93.74-33.61,15-67.1.11-98.38-8.23-42.08-11.24-91.63-15.65-135.95-16.31-21.26-.32-50.95,3.03-70.24-5.17-10.54-4.48-10.51-19.18-10.15-28.93.76-20.76,12.17-52.13,22.74-71.02,19.22-34.29,65.57-61.72,101.82-78.26,58.1-26.52,147.44-54.99,210.95-50.48h0Z"
+        fill="var(--hero-orange)" />
+      <path class="shape shape-2 cls-1"
+        d="M445.73,387.94c13.19-16.07,42.34-51.22,62.44-57.42,11.93-3.68,34.37,1.04,44.07,7.94,29.91,21.33,39,86.96,48.14,120.79,9.34,34.53,21.28,68.31,30.95,102.71,7.91,28.1,13.71,48.23,9.03,78.01-11.58,73.68-63.32,141.27-148.49,137.64-113.16-4.83-171.16-98.82-156.32-198.43,9.78-65.6,67.41-139.09,110.18-191.26h-.01Z"
+        fill="var(--hero-lightblue)" />
+      <path class="shape shape-3 cls-2"
+        d="M211.08-50.36c51.54,19.02,86.07,82.96,127.39,118.57,22.4,19.32,52.71,37.44,80,47.51,13.89,5.14,29.07,5.15,42.92,9.98,59.89,20.95,96.98,109.54,50.71,158.15-57.81,60.71-125.57,41.45-195.22,4.09-26.57-14.25-37.03-24.67-57.77-45.38-52.43-52.4-155.49-93.6-222.86-122.09-16.5-6.96-37.18-13.71-52.54-21.28C-50.37,82.41-50.86,34.12-29.75,8.79,13.71-43.42,146.68-74.16,211.1-50.37h-.02Z"
+        fill="var(--hero-orange)" />
+      <path class="shape shape-4 cls-1"
+        d="M638.86,143.32c-2.2,27.41-7.28,57.74-32.69,70.47-22.31,11.19-47.25,7.86-50.85-22.05-2.34-19.44,2.88-37.3-1.22-57.73-8.36-41.5-31.65-37.7-61.93-47.12-15.27-4.75-45.08-15.23-53.35-30.32-25.01-45.63,12.33-125.1,58.8-139.03,25.32-7.59,74.59-8.28,95.12,8.1,24.92,19.89,36.41,86.75,41.17,120.94,4.37,31.38,7.55,64.28,4.95,96.76h0Z"
+        fill="var(--hero-lightblue)" />
+      <path class="shape shape-5 cls-3"
+        d="M606.23,341.69c2.12-49.18,40.07-59.57,84.43-52.79,76.34,11.66,147.26,112.6,189.44,172.34,10.41,14.74,28.22,35.81,25.82,53.99-3.98,30.11-45.91,32.57-69.75,38.37-27.19,6.59-32.57,28.91-63.31,29.91-67.34,2.16-103.15-74.28-129.33-125.56-16.39-32.11-38.79-80.95-37.26-116.26h-.03Z"
+        fill="var(--hero-darkblue)" />
+      <path class="shape shape-6 cls-4"
+        d="M593.81,319.89c-12.87,9.16-25.79,13.34-37.96,7.17-9.97-5.05-18.39-22.26-20.48-32.81-2.09-10.55-.2-20.77,8.54-30.8,14.38-16.5,22.03-7.17,37.35-7.53,7.12-.17,9.65-2.44,16.09-5.33,3.08-1.38,3.92-1.34,6.03.35,6.55,5.24,7.9,19.48,7.28,28.06-.61,8.5-3.04,20.85-7,29.24-2.36,5-4.92,8.13-9.85,11.64h0Z"
+        fill="var(--hero-pink)" />
 
-  </svg>
-</div>
-<div class="content">
-<header class="hero">
-  <div class="hero-text">
-    <h1>Räume für Jeden <br>– inklusiv, immersiv, interaktiv</h1>
-    <p>Interventionen mit dem CJD am Standort Sickinger Straße, Berlin - SS2026 - BHT - Transformation Design & Print</p>
+    </svg>
   </div>
-</header>
+  <div class="content">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>RÄUME FÜR JEDEN <br>– inklusiv, immersiv, interaktiv</h1>
+        <p>Interventionen mit dem CJD am Standort Sickinger Straße, Berlin - SS2026 - BHT - Transformation Design &
+          Print</p>
+      </div>
+    </header>
 
-<div class="filters">
-  <div class="filter-top">
+    <div class="filters">
+      <div class="filter-top">
 
-    <div class="filter-group">
-      <strong>01 / Kategorie</strong>
-      <div id="filter-kategorie"></div>
+        <div class="filter-group">
+          <strong>01 / Kategorie</strong>
+          <div id="filter-kategorie"></div>
+        </div>
+
+        <div class="filter-group">
+          <strong>02 / Status</strong>
+          <div id="filter-status"></div>
+        </div>
+
+      </div>
     </div>
 
-    <div class="filter-group">
-      <strong>02 / Status</strong>
-      <div id="filter-status"></div>
-    </div>
+    <section id="grid" class="grid"></section>
 
   </div>
-</div>
+  <div id="overlay" class="overlay">
+    <div class="close" id="closeBtn">✕</div>
 
-<section id="grid" class="grid"></section>
+    <div class="overlay-inner">
+      <div id="detail-kategorie"></div>
+      <h2 id="detail-title"></h2>
+      <span id="detail-status" class="status"></span>
 
-</div>
-<div id="overlay" class="overlay">
-  <div class="close" id="closeBtn">✕</div>
+      <div class="detail-layout">
+        <div id="detail-images" class="detail-images"></div>
+        <div id="detail-images" class="detail-images"></div>
 
-  <div class="overlay-inner">
-    <div id="detail-kategorie"></div>
-    <h2 id="detail-title"></h2>
-    <span id="detail-status" class="status"></span>
-
-    <div class="detail-layout">
-      <div id="detail-images" class="detail-images"></div>
-  <div id="detail-images" class="detail-images"></div>
-
-<p id="detail-text"></p>
-</div>
+        <p id="detail-text"></p>
+      </div>
       <p id="detail-text"></p>
     </div>
   </div>
-</div>
+  </div>
 
-<script type="module" src="./js/app.js"></script>
+  <script type="module" src="./js/app.js"></script>
 
 </body>
+
 </html>
