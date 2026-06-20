@@ -192,7 +192,7 @@ header p {
 .filter-group strong {
   font-family: "Atkinson Hyperlegible", sans-serif;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 8px;
   display: block;
@@ -203,7 +203,7 @@ header p {
   background: none;
   cursor: pointer;
   color: #1f1f1f;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 00;
   text-transform: uppercase;
   margin: 4px 14px 4px 0;
