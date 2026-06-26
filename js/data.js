@@ -335,7 +335,7 @@ Wenn wir die Abschlusspräsentation unserer Forschungsergebnisse als immersives 
 <br><br>
 `,
     images: [
-      "images/kueche_01.jpg",
+      "images/kueche_01.jpeg",
    
     ]
   },
