@@ -320,7 +320,25 @@ Aus unseren Interviews hat sich ergegebe, dass die Azubis im Metallbereich es sc
     text: "Wenn wir die Schüler*innen mit positiven Bestärkungen vor bspw. Prüfungen versehen, dann schaffen wir es, mögliche Affirmationen bei den Schüler*innen hervorzurufen, weil wir damit die positiven, bestärkenden und Selbstwert schaffenden Eigenschaften der jeweiligen Person in diesem Momenmt ins Licht rücken.<br> <br> Schüler*innen bekommen von Lehrpersonal vor/beim Betreten des Raumes (wo Prüfung stattfinden wird) ein kleines Kärtchen in die Hand auf dem etwas steht:1) Von Schüler*in in Vergangenheit selbst positives Stichwort zu sich verfasst2) von Lehrpersonal positives verfasst (Schüler*in-spezifisch3) allgemein formulierte Affirmationen.<br> Kombi von 1-2-3 möglich.",
     images: ["images/dusche_01.jpg"]
   },
+ {
+    title: "Event-Gala",
+    kategorie: ["Physische Erfahrung", "Verstärkung"],
+    status: "pausiert",
+    text: `
+<strong>Die Küche ist das stolze Herzstück des CJD, wird jedoch bei internen Events durch externes Catering übergangen und kaum nach außen hin bespielt.</strong>
 
+<br><br>
+
+<strong>Hebelpunkt</strong><br>
+Wenn wir die Abschlusspräsentation unserer Forschungsergebnisse als immersives Dinner gestalten, bei dem das Menü der BvBler direkt mit der Inhaltsvermittlung verschmilzt, brechen wir diese Unsichtbarkeit auf. Durch die gezielte Einladung von Personaldienstleistern und Premium-Eventlocations machen wir das verborgene Potenzial der Jugendlichen für die Entscheider direkt erfahrbar.
+
+<br><br>
+`,
+    images: [
+      "images/kueche_01.jpg",
+   
+    ]
+  },
   
   {
     title: "Workshops",
