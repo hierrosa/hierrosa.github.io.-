@@ -51,7 +51,7 @@ Wir schaffen einen Pausenraum und damit die Möglichkeit, sich zwischen der Lehr
   {
     title: "Bushaltestelle",
     kategorie: ["Verstärkung", "Support", "Irritation"],
-    status: "in umsetzung",
+    status: "abgeschlossen",
     text: `
 
 <strong>Die Raucherecke verwandelt sich in eine Bushaltestelle. Wir greifen optische und funktionale Elemente einer Haltestelle auf, um Themen wie Zukunft, Orientierung und Zusammenhalt sichtbar und erlebbar zu machen.</strong>
@@ -138,7 +138,7 @@ Am ersten Tag werden zudem Stärken als „Tickets“ gesammelt, begleitet von e
   {
     title: "Rollentausch",
     kategorie: ["Support", "Verstärkung"],
-    status: "in umsetzung",
+    status: "abgeschlossen",
     text: `
 <strong>Der Rollentausch macht Schüler:innen zu Expert:innen ihres digitalen Alltags mit KI. Lehrende und Verwaltung hören zu, lernen mit und erleben den Raum aus einer ungewohnten Rolle.</strong>
 
@@ -192,16 +192,71 @@ Frage: Wem wird Wissen und Verantwortung zugetraut?<br>
   {
     title: "Dannenmann",
     kategorie: ["Zuspitzung", "Physische Erfahrung"],
-    status: "in umsetzung",
+    status: "abgeschlossen",
     text: `
-<strong>Die Intervention setzt sich kritisch mit der Biografie des CJD-Gründers Arnold Dannenmann auseinander und bricht die offizielle, oft idealisierte Gründungslegende der Institution visuell auf. Das Herzstück der Arbeit bildet ein interaktives 3D-Modell seines Kopfes, dessen äußere Schale als glatte, makellose Fassade fungiert. Über einen Magnetmechanismus lässt sich das Modell öffnen und legt das widersprüchliche Innere seiner Geschichte frei. Hier prallen historische Dokumente ungefiltert aufeinander: Seine völkischen Kriegskampfschriften, wie „Jugend bekennt sich zu Christus und Nationalsozialismus“, stehen in direktem Kontrast zu seiner späteren Ehrung mit dem Bundesverdienstkreuz mit Stern. Die Arbeit konfrontiert die Leitungsebene pünktlich zum 80. Jubiläum des CJD mit den historischen Leerstellen der eigenen Identität und macht spürbar, warum die Institution diese Ambivalenzen bis heute lieber verschweigt.</strong>
+
+<strong>Diese Intervention konfrontiert die Leitungsebene physisch mit der NS-Vergangenheit des Gründers Arnold Dannenmann. Durch ein haptisches Objekt wird ein Dialog über die ehrliche Identität der Organisation angestoßen.</strong>
+
 
 <br><br>
 
-<strong>Hebelpunkt</strong><br>
-Der Hebel dieser Arbeit liegt in einer bewussten Störung der internen Kommunikation. Das Exponat nutzt das  Aufklappen als Werkzeug, um die einseitige, top-down diktierte Gründungsgeschichte des CJD zu unterbrechen. Indem die Betrachter die Fassade physisch öffnen (ihm in den Kopf schauen), wechseln sie von der Rolle der passiven Zuhörer in die Rolle der aktiven Entdecker. Dieser Hebel macht die historische Ambivalenz überhaupt erst kommunizierbar: Er zwingt das System, das bisherige Schweigen und das Schönreden der Biografie Dannenmanns zu beenden. Anstatt das 80. Jubiläum für die üblichen, glatten PR-Floskeln zu nutzen, hebelt die Intervention die Komfortzone der Institution aus. Sie stößt einen ehrlichen, längst überfälligen Dialog zwischen Jugendlichen, Leitung und Vorstand über historische Wahrheit, Widersprüche und die eigene Identität an.
+<p><strong>Beobachtung</strong></p>
+
+
+Zwischen dem offiziellen Leitbild „Keiner darf verloren gehen“ und dem verdeckten historischen Erbe des Gründers existiert ein blinder Fleck. Diese „Silo-Logik“ und die geringe Sichtbarkeit historischer Kontinuitäten erzeugen zwar oberflächliche Stabilität, überdecken jedoch strukturelle Brüche und verhindern eine ehrliche Auseinandersetzung mit der eigenen Organisationskultur.
+
 
 <br><br>
+
+<p><strong>Hebel-Hypothese</strong></p>
+
+
+Wenn mittels eines haptischen Objekts die Sichtbarkeit historischer Brüche im direkten Diskursraum der Leitung erhöht wird, dann sinkt die narrative Stabilität des Gründermythos zugunsten einer Offenheit für systemische Reflexion, weil die erzeugte kognitive Dissonanz die bestehende Logik unterbricht.
+
+
+<br><br>
+
+<p><strong>Konzept</strong></p>
+
+
+Wir platzieren eine 3D gedruckte Büste Dannenmanns bei einem Meeting mit der Standortleitung auf dem Tisch. Die Büste ist vertikal in der Mitte geteilt und kann geöffnet werden. Darin werden Informationen sichtbar wie z.B. Buchtitel des Gründers aus der Zeit des Nationalsozialismus und Auszeichnungen wie das Bundesverdienstkreuz. Diese werden unkommentiert nebeneinandergestellt. Anstatt Fakten nur sprachlich zu präsentieren, erzwingen wir durch die physische Präsenz des Objekts eine unmittelbare Auseinandersetzung während einer gewöhnlichen Besprechungssituation.
+
+
+<br><br>
+
+<p><strong>Zugrundeliegende Codes</strong></p>
+
+<p>
+<strong>Kommunikations-Codes:</strong> Einseitig positive Gründermythen und Frames der „Menschlichkeit“, die historische Brüche überlagern.
+</p>
+
+<p>
+<strong>System-Codes:</strong> Hierarchische Machtstrukturen und eine starre Nutzungslogik, die kritisches Hinterfragen erschweren.
+</p>
+
+<br><br>
+
+<p><strong>Ziele</strong></p>
+
+<p>
+<strong>Irritation:</strong> Destabilisierung des Gründermythos, um blinde Flecken sichtbar zu machen.
+</p>
+
+<p>
+<strong>Support:</strong> Bereitstellung von Fakten für eine transparente und ehrliche Unternehmenskultur.
+</p>
+
+<p>
+<strong>Positive Verstärkung:</strong> Etablierung von Aufrichtigkeit als transformative Stärke des CJD.
+</p>
+
+<br><br>
+
+<p><strong>Reaktionen und Schlüsse</strong></p>
+
+<p>
+...
+</p>
 `,
     images: [
       "images/dannenmann_01.jpeg",
