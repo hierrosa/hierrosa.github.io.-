@@ -364,7 +364,7 @@ Aus unseren Interviews hat sich ergegebe, dass die Azubis im Metallbereich es sc
     title: "Barrieren",
     kategorie: ["Physische Erfahrung", "Irritation"],
     status: "wird nicht umgesetzt",
-    text: "Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.B. Vorhänge, Folien oder Paketmauern wie die (Kommunikations-) Wege in der Sickinger Str sind und damit schaffen wir erlebtes Bewusstsein für die unsichtbaren Barrieren am Standort.<br><br> Nicht umsetzbar wegen Brandschutz.",
+    text: "Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.Wir zeigen Mitarbeitenden und Schüler*innen durch aufbauen  Barrieren wie z.B. Vorhänge, Folien oder Paketmauern wie die (Kommunikations-) Wege in der Sickingenstraße sind und damit schaffen wir erlebtes Bewusstsein für die unsichtbaren Barrieren am Standort.<br><br> Nicht umsetzbar wegen Brandschutz.",
     images: ["images/barriere_01.jpg"]
   },
 
